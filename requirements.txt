@@ -1,0 +1,12 @@
+# Runtime dependencies for the Streamlit app (use Python 3.11 on Streamlit Community Cloud)
+streamlit>=1.40
+streamlit-webrtc>=0.60
+av>=12.0
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+opencv-python-headless>=4.9
+# MoveNet runs through TensorFlow Lite; the CPU build is much smaller than full TensorFlow.
+tensorflow-cpu>=2.16
+# Optional persistent database (Supabase / Neon / any PostgreSQL). Not used unless DATABASE_URL is postgresql://
+psycopg2-binary>=2.9

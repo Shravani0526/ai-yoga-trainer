@@ -1,0 +1,6 @@
+# Extra packages for the Colab notebook.
+# Colab already ships TensorFlow, NumPy, pandas and matplotlib, so only the headless OpenCV build
+# (no GUI libraries) is installed here. Nothing is pinned, to avoid breaking Colab's own packages.
+opencv-python-headless
+pandas
+matplotlib
